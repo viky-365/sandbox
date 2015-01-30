@@ -1,0 +1,15 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="name-card">
+  <template>
+    This is <b>{{owner}}</b>'s name-card element.
+  </template>
+  <script>
+    Polymer('name-card', {
+      // initialize the element's model
+      ready: function() {
+        this.owner = 'Rafael';
+      }
+    });
+  </script>
+</polymer-element>

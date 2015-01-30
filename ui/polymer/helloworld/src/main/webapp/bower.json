@@ -1,0 +1,29 @@
+{
+  "name": "Hello World",
+  "version": "0.0.1",
+  "homepage": "https://github.com/viky-365/sandbox",
+  "description": "Get started with polymer js",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "polymer",
+    "helloworld"
+  ],
+  "authors": [
+    "Vikrant"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4"
+  }
+}
